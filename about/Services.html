@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="col-7 navbar-brand" href="index.html">Berimbolo Security</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav">
+                <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav">
+                <a class="nav-link active" href="./Services.html">Services</a>
+              </li>
+              <li class="nav">
+                <a class="nav-link" href="./Products.html">Products</a>
+              </li>
+              <li class="nav ">
+                <a class="nav-link " href="./Contact us.html">Contact us</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <header class="bg-primary text-white text-center py-5">
+    <h1>Welcome to Our Service</h1>
+    <p>Your satisfaction is our priority!</p>
+</header>
+
+<section class="container my-5">
+    <h2 class="text-center">Our Services</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><img src="../image/download.jpg" alt=""></h5>
+                    <p class="card-text">Description of service 1.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><img src="../image/download (1).jpg" alt=""></h5>
+                    <p class="card-text">Description of service 2.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><img src="../image/download (2).jpg" alt=""></h5>
+                    <p class="card-text">Description of service 3.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+      <p>&copy; 2024 Your Website. All rights reserved. <a href="#">Privacy Policy</a> <a href="#">Terms of Service</a></p>
+  </div>
+</footer>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+  event.preventDefault(); // Prevent the default form submission
+
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+});
+  </script>
+</body>
+</html>

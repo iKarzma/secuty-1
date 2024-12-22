@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container-fliud">
+      <div class="row">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="col-6 navbar-brand" href="index.html">Berimbolo Security</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+                <li class="nav">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav">
+                  <a class="nav-link" href="./about/Services.html">Services</a>
+                </li>
+                <li class="nav">
+                  <a class="nav-link" href="./about/Products.html">Products</a>
+                </li>
+                <li class="nav-link ">
+                  <a class="m nav-link " href="./about/Contact us.html">Contact us</a>
+                </li>
+              </ul>
+              <button class="sin btn btn-outline-secondary my-2 my-sm-0 mx-2" type="button">Sign up</button>
+              <button class="log btn btn-primary  my-sm-0 mx-2 " type="button">Login</button>
+            </div>
+          </div>
+        </nav>
+    </div>
+    </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="mt-5">Short heading goes here</h1>
+          <p>
+            Lorem ipsum dolor sit amet et delectus accommodare his consul
+            copiosae.
+          </p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-sm-6 col-lg-4">
+          <div class="card">
+            <img src="image/download.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="card">
+            <img src="image/download (1).jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="card">
+            <img src="image/download (2).jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="form-container">
+        <h2 class="ts text-center mb-4">Sign Up Form</h2>
+        <form id="signupForm">
+          <div class="form -group">
+            <label for="signupUsername">Username</label>
+            <input
+              type="text"
+              id="signupUsername"
+              class="form-control"
+              placeholder="Enter username"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="signupEmail">Email</label>
+            <input
+              type="email"
+              id="signupEmail"
+              class="form-control"
+              placeholder="Enter email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="signupPassword">Password</label>
+            <input
+              type="password"
+              id="signupPassword"
+              class="form-control"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            Sign Up
+          </button>
+        </form>
+        <div
+          id="signupAlert"
+          class="alert alert-danger mt-3"
+          role="alert"
+          style="display: none"
+        >
+          Please fill in all the fields.
+        </div>
+        <div
+          id="signupSuccessAlert"
+          class="alert alert-success mt-3"
+          role="alert"
+          style="display: none"
+        >
+          Sign up successful
+        </div>
+        <p class="text-center mt-3">
+          By signing up, you agree to our <a href="#">Terms of Service</a> and
+          <a href="#">Privacy Policy</a>.
+        </p>
+      </div>
+
+      <div class="form-container2">
+        <h2 class="tg text-center mb-4">Login Form</h2>
+        <form id="loginForm">
+          <div class="form-group">
+            <label for="loginUsername">Username</label>
+            <input
+              type="text"
+              id="loginUsername"
+              class="form-control"
+              placeholder="Enter username"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="loginEmail">Email</label>
+            <input
+              type="email"
+              id="loginEmail"
+              class="form-control"
+              placeholder="Enter email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="loginPassword">Password</label>
+            <input
+              type="password"
+              id="loginPassword"
+              class="form-control"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Login</button>
+        </form>
+        <div
+          id="loginAlert"
+          class="alert alert-danger mt-3"
+          role="alert"
+          style="display: none"
+        >
+          Please fill in all the fields.
+        </div>
+        <div
+          id="loginSuccessAlert"
+          class="alert alert-success mt-3"
+          role="alert"
+          style="display: none"
+        >
+          Login successful
+        </div>
+        <p class="text-center mt-3">
+          By logging in, you agree to our <a href="#">Terms of Service</a> and
+          <a href="#">Privacy Policy</a>.
+        </p>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2024 Your Website. All rights reserved.
+          <a href="#">Privacy Policy</a> <a href="#">Terms of Service</a>
+        </p>
+      </div>
+    </footer>
+</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

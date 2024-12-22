@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="col-7 navbar-brand" href="index.html">Berimbolo Security</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav">
+                <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav">
+                <a class="nav-link" href="./Services.html">Services</a>
+              </li>
+              <li class="nav">
+                <a class="nav-link active" href="./Products.html">Products</a>
+              </li>
+              <li class="nav ">
+                <a class="nav-link " href="./Contact us.html">Contact us</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+    <div class="container mt-5">
+      <h1 class="text-center mb-4">Product Showcase</h1>
+      <div class="row" id="product-list">
+        <div class="col-md-4">
+          <div class="card product-card">
+            <img src="../image/download.jpg" class="card-img-top" alt="Product Image">
+            <div class="card-body">
+              <h5 class="card-title">Product 1</h5>
+              <p class="card-text">This is a short description of Product 1.</p>
+              <button class="btn btn-primary" onclick="addToCart('Product 1', 10)">Add to Cart ($10)</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card product-card">
+            <img src="../image/download (1).jpg" class="card-img-top" alt="Product Image">
+            <div class="card-body">
+              <h5 class="card-title">Product 2</h5>
+              <p class="card-text">This is a short description of Product 2.</p>
+              <button class="btn btn-primary" onclick="addToCart('Product 2', 15)">Add to Cart ($15)</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card product-card">
+            <img src="../image/download (2).jpg" class="card-img-top" alt="Product Image">
+            <div class="card-body">
+              <h5 class="card-title">Product 3</h5>
+              <p class="card-text">This is a short description of Product 3.</p>
+              <button class="btn btn-primary" onclick="addToCart('Product 3', 20)">Add to Cart ($20)</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="mt-5">Shopping Cart</h2>
+      <div id="cart" class="mt-3">
+        <ul class="list-group" id="cart-items"></ul>
+        <div class="mt-3">
+          <strong>Total: $<span id="total-price">0</span></strong>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer mt-5">
+      <div class="container text-center">
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+      </div>
+    </footer>
+
+
+    <script src="../js//bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
